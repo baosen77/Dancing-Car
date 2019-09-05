@@ -1,0 +1,5 @@
+manage_socket   原manage文件加入socket通信，传送参数驱动小车
+dance_client      音频 电脑端socket
+dance_server     音频 树莓派端socket pca驱动
+model                模型+数据处理
+data_transfer     读取txt并重写数据格式
