@@ -8,3 +8,4 @@ CSRTshow       实时读取相机拍摄的视频，获取坐标，传送给模�
 actual_time_assay    实时录入音频并进行分析
 deta_angle      通过坐标差值计算角度
 json_data       获取json文件的数据
+其它txt文件为收集到的角度、动力、坐标、差值数据集。
