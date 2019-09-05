@@ -1,5 +1,10 @@
-manage_socket   ԭmanage�ļ�����socketͨ�ţ����Ͳ�������С��
-dance_client      ��Ƶ ���Զ�socket
-dance_server     ��Ƶ ��ݮ�ɶ�socket pca����
-model                ģ��+���ݴ���
-data_transfer     ��ȡtxt����д���ݸ�ʽ
+manage_socket   原manage文件加入socket通信，传送参数驱动小车
+dance_client      音频 电脑端socket
+dance_server     音频 树莓派端socket pca驱动
+model                模型+数据处理
+data_transfer     读取txt并重写数据格式
+CSRTcollect    读取本地视频，获取坐标，收集数据集
+CSRTshow       实时读取相机拍摄的视频，获取坐标，传送给模型
+actual_time_assay    实时录入音频并进行分析
+deta_angle      通过坐标差值计算角度
+json_data       获取json文件的数据
